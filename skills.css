@@ -226,7 +226,7 @@ body{
   transition: box-shadow 0.2s, opacity 0.8s, transform 0.8s;
   min-width: 300px;
   max-width: 500px;
-  max-height: 100px;
+  min-height: 100px;
 }
 
 /* Animate when .visible is added */
