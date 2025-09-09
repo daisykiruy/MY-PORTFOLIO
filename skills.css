@@ -170,15 +170,6 @@ body{
   text-align: left; 
 }
 
-.proffessional{
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 4rem;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  color: var(--primary-color);
-  letter-spacing: 2px;
-}
-
 
 /*skills-section*/
 .skills-section {
@@ -198,7 +189,7 @@ body{
 }
 
 .skills.active {
-  animation: typing 2s steps(9, end) forwards, blink 0.75s step-end 3;
+  animation: typing 1s steps(9, end) forwards, blink 0.75s step-end 3;
 }
 
 .skills.finished {
@@ -207,7 +198,7 @@ body{
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 17ch; } /* "My Skills" is 9 characters */
+  to { width: 24ch; } 
 }
 
 @keyframes blink {
@@ -242,7 +233,7 @@ body{
 .card.visible {
   opacity: 1;
   transform: translateY(0);
-  animation: slideUp 1s ease forwards;
+  animation: slideUp 0.8s cubic-bezier(.77,0,.18,1) forwards;
 }
 
 /* Staggered animation delays for visible cards */
@@ -257,4 +248,37 @@ body{
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.footer {
+  background: rgba(0, 157, 209, 0.85); /* secondary color with opacity */
+  color: #fff;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 12px;
+}
+
+.footer-icon {
+  color: #fff;
+  margin: 0 12px;
+  transition: color 0.2s, transform 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-icon:hover {
+  color:var(--accent-color);
+  transform: scale(1.15);
+}
+
+.footer-copy {
+  font-size: 1rem;
+  opacity: 0.85;
+  letter-spacing: 0.5px;
 }

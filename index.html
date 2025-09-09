@@ -3,46 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>JS UP AND GOING </title>
+    <title>MY PORTFOLIO </title>
 
 </head>
 
-<nav class="nav-container">
+
+<section class="start-point"> 
+  <nav class="navbar">
+        <div class="logo">MY portfolio</div>
     <ul class="nav-list">
         <li class="nav-item"><a href="#">home</a></li>
-        <li class="nav-item"><a href="#">about</a></li>
-        <li class="nav-item"><a href="#">services</a></li>
+        <li class="nav-item"><a href="skills.html">Skills</a></li>
+        <li class="nav-item"><a href="contact.html">contact me</a></li>
     </ul>
 </nav>
 
-<section>
-    <div class="heading-container">
-        <h1 class="animated-heading">
-            welcome to JS Up and Going
-        </h1>
-        <p> This project is designed to help you learn the basics of JavaScript 
-            in a fun and interactive way. Explore the different sections to discover
-            useful tips, hands-on examples, and practical exercises that will boost
-            your coding skills. Whether you are a beginner or looking to refresh your 
-            knowledge,you’ll find resources here to guide you every step of the way.
-        </p>
-    </div>
+<section class="hero">
+  <div class="heading-container">
+    <h1 class="animated-heading">
+      <span>welcome to</span>
+      <span>my</span>
+      <span>portfolio !</span>
+    </h1>
+ <br>
+    <h2 class="heading-2">
+      <span>"get a glimpse into who I am and what I create."</span>
+    </h2>
+<br>
+    <p class="paragraph">
+      <span>
+        "I’m a software engineer passionate about creativity, art, and travel. As a web developer, I enjoy building 
+        digital experiences that blend function with design."
+      </span>
+    </p>
 
+    <button class="button">
+      explore more
+    </button>
 
-    <section>
-        <div class="subHeading-container">
-            <h2>How do i make this journey more interactive?</h2>
-            <p>if that is the question you are asking yourself then you 
-                have come to the right place, here.I will device a way to
-                make learning js and angular more fun and interactive                 
-               for you,stay tuned for more updates.
-            </p>
+  </div>
 
-        </div>
-    </section>
+  <div class="image-container">
+    <img src="images/potrait grad.jpg" alt="Portrait" class="image">
+  </div>
+
 </section>
+</section>
+
+   
+<section class="subHeading-container" id="about-section">
+  <h2 class="about">About Me</h2>
+  <p class="about-desc">
+    I am DAISY KIRUI TORONGEI ,a passionate software engineer specializing in front-end web development, 
+    where I combine logic with creativity to build engaging and user-friendly 
+    digital experiences. Beyond coding, I am an extroverted explorer who finds 
+    joy in traveling and discovering new cultures, stories, and perspectives.
+    I also enjoy cooking, which for me is another form of creativity and expression,
+    much like writing code or painting with flavors. My love for art and graphics
+    deeply influences my work, as I’m always drawn to visual aesthetics and design 
+    that bring technology to life. With an eye for detail 
+    and a spirit for adventure, I strive to create solutions that not 
+    only work seamlessly but also leave a lasting impression.
+  </p>
+
+  <button class="button">
+      more information
+    </button>
+
+</section>
+
+<section class="skills-section" id="skills-section">
+  <h2 class="skills"> My Skills</h2>
+  <div class="card-container">
+  <div class="card">
+    <h3>html</h3>
+    <p>This is some content inside the first card.</p>
+  </div>
+
+  <div class="card">
+    <h3>CSS</h3>
+    <p>This is some content inside the second card.</p>
+  </div>
+  <div class="card">
+    <h3>Javascript</h3>
+    <p>This is some content inside the second card.</p>
+  </div>
+  <div class="card">
+    <h3>Angular</h3>
+    <p>This is some content inside the second card.</p>
+  </div>
+  <div class="card">
+    <h3>MYSQL</h3>
+    <p>This is some content inside the second card.</p>
+  </div>
+ 
+</div>
+</section>
+
 <body>
-   <script src="main.js"></script> 
+  <script src="main.js"></script> 
+<footer class="footer">
+  <div class="footer-content">
+    <!-- GitHub -->
+    <a href="https://github.com/daisykiruy" target="_blank" class="footer-icon" aria-label="GitHub">
+      <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.8-1.1.8-1.1-.8-.1-1.6-.4-1.6-1.7 0-.4.1-.7.3-1-.1-.2-.5-1.1.1-2.2 0 0 .8-.3 2.5 1 .7-.2 1.5-.3 2.3-.3s1.6.1 2.3.3c1.7-1.3 2.5-1 2.5-1 .6 1.1.2 2 .1 2.2.2.3.3.6.3 1 0 1.3-.8 1.6-1.6 1.7.2.2.4.6.4 1.2v1.8c0 .4.2.7.8.6A12 12 0 0 0 12 .3"/>
+      </svg>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/daisy-kirui/" target="_blank" class="footer-icon" aria-label="LinkedIn">
+      <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M19 0h-14c-2.77 0-5 2.23-5 5v14c0 2.77 
+        2.23 5 5 5h14c2.77 0 5-2.23 
+        5-5v-14c0-2.77-2.23-5-5-5zm-11 
+        19h-3v-10h3v10zm-1.5-11.3c-.97 
+        0-1.75-.79-1.75-1.75s.78-1.75 
+        1.75-1.75 1.75.79 
+        1.75 1.75-.78 1.75-1.75 
+        1.75zm13.5 11.3h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 
+        0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.88v1.36h.04c.4-.75 
+        1.37-1.54 2.82-1.54 3.01 0 3.57 
+        1.98 3.57 4.55v5.63z"/>
+      </svg>
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:cherotich721@gmail.com" class="footer-icon" aria-label="Email">
+      <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 
+        1.1.9 2 2 2h16c1.1 0 2-.9 
+        2-2V6c0-1.1-.9-2-2-2zm0 
+        2v.01L12 13 4 6.01V6h16zM4 
+        20v-9.99l7.99 7.99c.39.39 
+        1.02.39 1.41 0L20 10.01V20H4z"/>
+      </svg>
+    </a>
+  </div>
+
+  <div class="footer-copy">
+    &copy; 2025 Daisy Torongei. All rights reserved.
+  </div>
+</footer>
+
 </body>
 </html>
