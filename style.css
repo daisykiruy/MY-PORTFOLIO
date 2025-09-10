@@ -150,7 +150,10 @@ body{
     margin: 40px auto 0 auto;
     margin-top: 40px;
    
+}
 
+.heading-container a{
+    text-decoration: none;
 }
 .button:hover{
     background-color: var(--primary-color);
@@ -201,6 +204,10 @@ body{
 
 .about.typed {
   border-right: none;
+}
+
+.subHeading-container a {
+  text-decoration: none;
 }
 
 .subHeading-container p {
